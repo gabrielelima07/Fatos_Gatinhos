@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "RN CatFacts Demo",
+    "slug": "rn-catfacts-demo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/cat-logo.png",
+    "splash": {
+      "image": "./assets/cat-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#6C63FF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/cat-logo.png",
+        "backgroundColor": "#6C63FF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/cat-logo.png"
+    }
+  }
+}
